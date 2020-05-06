@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+@media (max-width: 10000px) {
+   /*For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+
+}
+@media (max-width: 720px) {
+   /*For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+}
+@media (max-width: 540px) {
+   /*For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 300px) {
+   /*For a screen < 11px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px
+}
+.list-inline  i {
+  font-size: 40px;
+    color: #2C3E50 ;
+}
+
+.container {
+  /*width:900px;*/
+  margin: center, auto;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+}
+.img-circle{
+  border-radius: 50%
+}
+
+.card{
+  text-align: center;
+  background-color: #D6EAF8 ;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px;
+  border-radius: 10px
+}
+/*div {
+  display: block;
+}*/
+body {
+  background-color: #FFDAC1;
+  /*display: flex;*/
+}
+
+h1, h2, h3 {
+  color:#212F3D  ;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.button{
+  display:flex;
+  background-color: #ACECD5 ;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  width: 150px;
+  background-image: none;
+  margin: center, auto;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s;
+}
+.shadow {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
